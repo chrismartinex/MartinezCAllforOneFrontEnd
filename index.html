@@ -1,21 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Landing Page</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <h1>landing Page</h1>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <!--GOOGLE FONT BELOW-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+<nav>
+  <!-- the button below to use on the other pages to direct back to home page-->
+  <form class="container-fluid justify-content-start">
+    <!-- <button class="btn btn-outline-danger me-2 text-center" type="button">HOME</button> -->
+
+  </form>
+</nav>
+
+<a href="./pagesFolder/Add2Num.html"></a>
+<a href="./pagesFolder/AskQ3.html"></a>
+<a href="./pagesFolder/GrtLessThan4.html"></a>
+<a href="./pagesFolder/Madlib5.html"></a>
+<a href="./pagesFolder/OddEven6.html"></a>
+<a href="./pagesFolder/Reverse7.html"></a>
+<a href="./pagesFolder/StudentD8.html"></a>
+<a href="./pagesFolder/ResPick9.html"></a>
+
+<body class="indexBackground">
+  <header>
+    <h1 class="textWhite">ALL FOR ONE CHALLENGE</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="d-grid gap-5 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button" onclick="location.href = './pagesFolder/SayHello.html';">SAY HELLO</button>
+        </div>
+        <div class="d-grid gap-5 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button" onclick="location.href = './pagesFolder/Add2Num.html';" >ADD 2 NUMBERS</button>
+        </div>
+
+        <div class="d-grid gap-2 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button" onclick="location.href = './pagesFolder/AskQ3.html';" >ASKING QUESTIONS</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-grid gap-5 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button" onclick="location.href = './pagesFolder/GrtLessThan4.html';" > > THAN OR LESS THAN </button>
+        </div>
+        <div class="d-grid gap-5 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button" onclick="location.href = './pagesFolder/Madlib5.html';" >MAD LIB</button>
+        </div>
+
+        <div class="d-grid gap-2 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button" onclick="location.href = './pagesFolder/OddEven6.html';" >ODD OR EVEN #</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-grid gap-5 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button" onclick="location.href = './pagesFolder/Reverse7.html';" >REVERSE IT</button>
+        </div>
+        <div class="d-grid gap-5 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button"  onclick="location.href = './pagesFolder/StudentD8.html';" >STUDENT DIRECTORY</button>
+        </div>
+
+        <div class="d-grid gap-2 col-4 p-4">
+          <button class="btn btn-secondary boxColor textRed" type="button" onclick="location.href = './pagesFolder/ResPick9.html';" >RESTAURANT PICKER</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- CODE BELOW WAS MY BEFORE SKELETON, RE BUILDING FROM FIGMA-->
+  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button
@@ -94,13 +158,19 @@
         </div>
         <div class="col-6"></div>
       </div>
+    </div> -->
+  <footer>
+    <div class="container">
+      <div class="text-center p-5 footerIndex footerText">
+        Chris Martinez / CodeStack Academy © 2023 Copyright
+        <!-- <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
+      </div>
     </div>
+  </footer>
+  <script src="./scripts/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
 
-    <script src="./scripts/script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

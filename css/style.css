@@ -1,3 +1,154 @@
-body {
- background-color: lightgreen;
+body, html {
+ /* background-color: lightblue; */
+ height: 100%;
+}
+
+.indexBackground {
+ background-image: url("../assets/index.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+ /* height: 10%; */
+}
+.textWhite{
+ text-align: center;
+ color: white;
+ font-family: 'Inter', sans-serif;
+font-size: 59px;
+}
+.footerIndex{
+ color: white;
+}
+.buttonColor{
+ color: #A7ACDE;
+}
+.boxColor {
+ background-color: #A7ACDE;
+}
+.textRed {
+ color: #F91B0B;
+ font-family: 'Inter', sans-serif;
+ font-weight: bold;
+}
+.footerText {
+ font-family: 'Inter', sans-serif;
+}
+
+/* below Hello Challege CSS  */
+
+.helloBackground {
+ background-image: url("../assets/sayhello\ copy.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+}
+.textWhite{
+ text-align: center;
+ color: white;
+ font-family: 'Inter', sans-serif;
+font-size: 59px;
+font-weight: bold;
+}.colorBlanco {
+ color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: x-large;
+}
+.boxColorHello {
+ background-color: #E0DB59;
+}
+.textSubmit
+{
+  font-family: 'Inter', sans-serif;
+   font-weight: bold;
+   font-size: xx-large;
+
+}
+
+/* ADD 2 NUMBERS Challege CSS  */
+
+.add2Background {
+ background-image: url("../assets/add2numbers.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+
+}
+/* ASK A QUESTION Challege CSS  */
+.askBackground {
+background-image: url("../assets/askingquestions.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+}
+.textAnswer {
+ color: black;
+ font-size: xx-large;
+ font-weight: bold;
+}
+/* GREATER THAN LESS THAN Challege CSS  */
+
+.greaterBackground 
+{
+ background-image: url("../assets/greaterThanLessThan.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+
+}
+/* MADLIB Challege CSS  */
+.madLibBackground {
+ background-image: url("../assets/madlib.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+}
+/* ODD OR EVEN Challege CSS  */
+.oddEvenBackground {
+ background-image: url("../assets/oddoreven.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+}
+/* Reverse Challege CSS 7  */
+.reverseBackground {
+background-image: url("../assets/reverseit.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+
+}
+/* Student Directory Challege CSS 8  */
+.studentsBackground {
+ background-image: url("../assets/studentdirectory.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
+
+}
+/* Restaurant Picker Challege CSS 9  */
+.resBackground {
+ background-image: url("../assets/pexels-alex-andrews-861443.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: auto;
+ border: solid 2px;
 }
