@@ -67,6 +67,9 @@ font-weight: bold;
    font-size: xx-large;
 
 }
+.colorRed{
+background-color: #F91B0B;
+}
 
 /* ADD 2 NUMBERS Challege CSS  */
 
@@ -122,6 +125,11 @@ background-image: url("../assets/askingquestions.jpg");
  width: 100%;
  min-height: auto;
  border: solid 2px;
+}
+.bulky
+{
+font-size: xx-large;
+font-weight: bold; 
 }
 /* Reverse Challege CSS 7  */
 .reverseBackground {
