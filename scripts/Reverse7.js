@@ -1,5 +1,5 @@
 // alert()
-let inputName = document.getElementById("inputName");
+let input1 = document.getElementById("input1");
 let returnHello = document.getElementById("returnHello");
 let helloSubBtn = document.getElementById("helloSubBtn");
 
@@ -10,17 +10,27 @@ helloSubBtn.addEventListener("click", function () {
   getData();
 });
 
+function getData() {
+  fetch(
+    "https://allforonecmartinez.azurewebsites.net/ReverseThis/Regress/" +
+      input1.value
+  )
+    .then((response) => response.text())
+    .then((data) => (injectHere.textContent = data));
+}
+
 //now create the function
 // this url is working, i tried it "https://api.adviceslip.com/advice", but not mine so far
 
-function getData() {
-  fetch("https://allforonecmartinez.azurewebsites.net/ReverseThis/Regress/7779")
-    .then(
-      (response) => response.text()
-      //response => response.json()
-    )
-    .then((data) => console.log(data));
-}
+// function getData() {
+//   fetch("https://allforonecmartinez.azurewebsites.net/ReverseThis/Regress/7779")
+//     .then(
+//       (response) => response.text()
+//       //response => response.json()
+//     )
+//     .then((data) => console.log(data));
+// }
 
 
 /// ReverseThis Regress/{wordsOut
+
