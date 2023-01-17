@@ -1,11 +1,14 @@
 let input1 = document.getElementById("input1");
+let input2 = document.getElementById("input2");
+let input3 = document.getElementById("input3");
+
 //console.log(returnHello);
 
 helloSubBtn.addEventListener("click", function () {
   GetData();
+  GetData1();
+  GetData2();
 });
-
-
 
 function GetData() {
   fetch(
@@ -19,9 +22,60 @@ function GetData() {
         data.firstName +
         "Student last Name : " +
         data.lastName +
+        "Student email Name : " +
         data.slackName;
     });
 }
+function GetData1() {
+  fetch(
+    "https://allforonecmartinez.azurewebsites.net/StudentDirectory/GetStudentByLastName/" +
+      input2.value
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      helloSubBtn.textContent =
+        "Student first Name : " +
+        data.firstName +
+        "Student last Name : " +
+        data.lastName +
+        "Student email Name : " +
+        data.slackName;
+    });
+}
+function GetData2() {
+  fetch(
+    "https://allforonecmartinez.azurewebsites.net/StudentDirectory/GetStudentByEmail/" +
+      input3.value
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      helloSubBtn.textContent =
+        "Student first Name : " +
+        data.firstName +
+        "Student last Name : " +
+        data.lastName +
+        "Student email Name : " +
+        data.slackName;
+    });
+}
+
+// function GetData() {
+//   fetch(
+//     "https://allforonecmartinez.azurewebsites.net/StudentDirectory/GetStudentByLastName/" +
+//       input1.value
+//   )
+//     .then((response) => response.json())
+//     .then((data) => {
+//       helloSubBtn.textContent =
+//         "Student first Name : " +
+//         data.firstName +
+//         "Student last Name : " +
+//         data.lastName +
+
+//         data.slackName;
+//     });
+
+// }
 
 // function getData() {
 //   fetch(
@@ -34,8 +88,6 @@ function GetData() {
 //       console.log(data.lastName);
 //     });
 // }
-
-
 
 //now create the function
 // this url is working, i tried it "https://api.adviceslip.com/advice", but not mine so far
@@ -52,5 +104,3 @@ function GetData() {
 // }
 
 // AddingNumbers;
-
-
